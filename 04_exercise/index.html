@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function books (bookname, availability, price){
+    this.bookname= bookname;
+    this.availability=availability;
+    this.price=price;
+
+}
+var book1 =new books ("JavaS", "available", 50);
+var book2 =new books ("HTML","not available",30);
+var book3 =new books ("CSS","available",20);
+
+
+document.getElementById("demo").innerHTML = book1.bookname 
+
+</script>
+</body>
+</html>
+

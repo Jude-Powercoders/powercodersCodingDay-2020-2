@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#sidebar1 {
+    
+    left: 0px;
+    top: 0px;
+    width: 250px;
+    background-color:rgb(163, 27, 27);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+#sidebar2 {
+    
+    right: 0px;
+    top: 0px;
+    width: 250px;
+    background-color:rgb(163, 27, 27);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+main{
+    background-color: chartreuse;
+    margin-left: 250px; 
+    padding-left: 250px; 
+    padding-right: 150px;
+       
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
